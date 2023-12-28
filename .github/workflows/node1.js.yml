@@ -13,7 +13,7 @@ on:
 jobs:
   build:
 
-    runs-on: ["self-hosted", "test"]
+    runs-on: ["ubuntu-latest", "test"]
 
     strategy:
       matrix:
